@@ -21,7 +21,7 @@ $(function () {
             }
         },
 
-    })
+    });
 
 
 });
@@ -35,7 +35,7 @@ $(function () {
             $('#header').removeClass('on')
         }
     })
-})
+});
 
 
 $(function () {
@@ -65,7 +65,7 @@ $(function () {
                 spaceBetween: 30,
             }
         },
-    })
+    });
     const main_store_slide02 = new Swiper('.main_store_slide02', {
         loop: true,
         slidesPerView: 2,
@@ -110,7 +110,7 @@ $(function () {
             $('.gnb>ul>li ul').removeAttr('style');
         }
     })
-})
+});
 
 
 $(function () {
