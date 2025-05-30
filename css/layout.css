@@ -1,0 +1,48 @@
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 120px 0;
+}
+
+.default .title {
+    max-width: 1290px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.default_btn {
+    position: relative;
+    display: inline-flex;
+    background: var(--MC);
+    align-items: center;
+    padding: 0 22px 0 32px;
+    height: 56px;
+    color: var(--WC);
+    font-size: 18px;
+}
+
+.default_btn svg {
+    margin-left: 8px;
+}
+
+
+.default_btn:hover {
+    background: var(--WC);
+    color: var(--BYC);
+    border: 1px solid var(--BYC);
+
+}
+
+
+.default_btn:hover svg {
+    stroke: #333;
+}
